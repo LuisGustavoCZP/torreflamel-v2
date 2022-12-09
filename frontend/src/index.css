@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --azul: rgb(95, 158, 160);
+    --azuldark: #9C9CC6;
+    --montain: rgb(191, 122, 0);
+    --ground: rgb(38, 128, 38);
+    --ground-back: rgb(81, 131, 81);
+    --menu-darkness: rgb(118 94 151);
+    --menu-dark: #5E53A0;
+    --menu-mid: rgb(221 170 27);
+    --menu-glow: rgb(29 181 72);
+    --menu-glow-low: #36cf10;
+    --menu-button: var(--menu-glow);
+    --menu-button-glow: var(--menu-glow-low);
+    --modal-button: var(--menu-mid);
+    --modal-button-glow: var(--menu-glow-low);
+    --menu-icon: var(--menu-dark);
+    --menu-icon-glow: var(--menu-darkness);
+    --wood-light: rgb(182, 152, 111);
+    --wood-mid: rgb(168, 151, 128);
+    --wood-dark: rgb(117, 88, 47);
+    --wood-darker: rgb(70, 52, 27);
+    --golden: #DAA520;
+    --wood-details: var(--menu-mid);
+    --modal-background: #785693;
+    --titleFont: 'Magic School Two'; font-weight: normal; font-style: normal;
+    --subtitleFont: 'Magic School One'; font-weight: normal; font-style: normal; color: rgb(252, 245, 236); 
+    --paper: antiquewhite;
+    --menu-title-font: 'Press Start 2P', cursive;
+    --places: rgb(252, 245, 236) ;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+img.gray {
+    filter: grayscale(100%);
+}
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "torreflamel-v2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install-frontend": "cd frontend & npm i",
+    "install-backend": "cd backend & npm i",
+    "install": "npm run install-frontend",
+    "dev-frontend": "cd frontend & npm run dev",
+    "dev-backend": "cd backend & npm run dev",
+    "start": "npm run dev-frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisGustavoCZP/torreflamel-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisGustavoCZP/torreflamel-v2/issues"
+  },
+  "homepage": "https://github.com/LuisGustavoCZP/torreflamel-v2#readme"
+}
